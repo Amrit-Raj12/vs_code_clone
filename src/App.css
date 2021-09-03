@@ -1,0 +1,501 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  overflow: hidden;
+}
+
+body{
+  background: #1a1a1a;
+}
+
+.header_box{
+  height: 28px;
+  background: #383838;
+}
+
+.menu_logo{
+  width: 20px;
+  height: 20px;
+}
+
+.menu_lists{
+  display: inline-flex;
+  color: white;
+  padding-top: 5px;
+  padding-left: 5px;
+  list-style-type: none;
+}
+.dropdown:hover{
+  background: #fafafa;
+  height: 24px;
+  color: #1a1a1a;
+}
+
+.menu_list{
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.menu_icons{
+  float: right;
+  cursor: pointer;
+}
+
+.mini_icon{
+  font-size: 25px;
+  color:#DCDCDC;
+}
+
+.max_icon{
+  font-size: 25px;
+  color:#DCDCDC;
+}
+
+.close_icon{
+  font-size: 25px;
+  color:#DCDCDC;
+}
+
+.close_icon:hover{
+  background: red;
+  cursor: pointer;
+}
+
+.menu_heading{
+position: absolute;
+left: 50%;
+}
+
+@media only screen and (max-width: 800px){
+  .menu_heading{
+    position: absolute;
+    left: 60%;
+    }
+}
+
+.dropdown-menu{
+  width: 300px;
+  background: black;
+}
+.dropdown-item{
+  color: white;
+  font-size: 10px;
+}
+
+.dropdown-item:hover{
+  background: #147ddf;
+  color: white;
+}
+
+hr{
+  background: #383838;
+}
+
+.item_sc{
+  float: right;
+}
+
+aside{
+  float:left;
+  width:60px;
+  height: 850px;
+  border-top:solid 5px #555;
+  background-color:#383838;
+  margin:0 0 0 0;
+  padding:0 10px;
+  position: absolute;
+  top:28px;
+}
+
+
+.Lfiles_icon{
+  font-size: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color:#DCDCDC;
+}
+
+.Lfiles_icon:hover{
+  cursor: pointer;
+  color: white;
+}
+
+.Lsearch_icon{
+  font-size: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color:#DCDCDC;
+}
+
+.Lsearch_icon:hover{
+  cursor: pointer;
+  color: white;
+}
+
+.Lsource_icon{
+  font-size: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color:#DCDCDC;
+}
+
+.Lsource_icon:hover{
+  cursor: pointer;
+  color: white;
+}
+
+.Ldebug_icon{
+  font-size: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color:#DCDCDC;
+}
+
+.Ldebug_icon:hover{
+  cursor: pointer;
+  color: white;
+}
+
+.Lexten_icon{
+  font-size: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color:#DCDCDC;
+}
+
+.Lexten_icon:hover{
+  cursor: pointer;
+  color: white;
+}
+
+.Lprof_icon{
+  position: relative;
+  top: 390px;
+  font-size: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color:#DCDCDC;
+}
+
+.Lprof_icon:hover{
+  cursor: pointer;
+  color: white;
+}
+
+.Lset_icon{
+  position: relative;
+  top: 400px;
+  font-size: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color:#DCDCDC;
+}
+
+.Lset_icon:hover{
+  cursor: pointer;
+  color: white;
+}
+
+.box_heading{
+  position: relative;
+  left: 40%;
+}
+
+.box_heading>h3,.box_heading>h4{
+  position: relative;
+  right: 20%;
+  top: 120px;
+  color: #DCDCDC;
+
+}
+
+.start_box{
+  position: relative;
+  left: 40%;
+
+}
+
+.start_box>h6{
+  position: relative;
+  right: 20%;
+  top: 140px;
+  color: #dcdcdca1;
+  font-weight: 300;
+}
+
+.command_box{
+
+  width: auto;
+}
+
+.command_box>p{
+  position: relative;
+  right: 20%;
+  top: 140px;
+  color: #147ddf;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.W_icon{
+  color: #dcdcdca1;
+  cursor: pointer;
+}
+
+.recent_box{
+  position: relative;
+  left: 40%;
+
+}
+
+.recent_box>h6{
+  position: relative;
+  right: 20%;
+  top: 140px;
+  color: #dcdcdca1;
+  font-weight: 300;
+}
+
+.path_box>p{
+  position: relative;
+  right: 20%;
+  top: 140px;
+  color: #147ddf;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.path_box>p>span{
+  color: #dcdcdca1;;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.Gstart_box{
+  position: relative;
+  left: 40%;
+  
+  /* margin-top: -345px; */
+
+}
+
+.Gstart_box>h6{
+  position: relative;
+  left: 20%;
+  top: -340px;
+  color: #dcdcdca1;
+  font-weight: 300;
+}
+
+.prog_box{
+  position: relative;
+  left: 20%;
+  top: -345px;
+  width: 350px;
+  height: 50px;
+  background: #383838;
+  border-radius: 15px 15px 25px 5px;
+  border-bottom: 5px solid white;
+}
+
+.btm_box{
+  position: relative;
+  top: 35px;
+  left: -1px;
+  width: 220px;
+  height: 15px;
+  border-radius: 15px;
+  border-bottom: 5px solid #147ddf;
+}
+
+.btm_box>p{
+  position: relative;
+  top: -25px;
+  left: 10px;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.prog_box{
+  position: relative;
+  left: 20%;
+  top: -345px;
+  width: 350px;
+  height: 50px;
+  background: #383838;
+  border-radius: 15px 15px 15px 5px;
+  border-bottom: 5px solid white;
+}
+
+.btm_box{
+  position: relative;
+  top: 35px;
+  left: -1px;
+  width: 220px;
+  height: 15px;
+  border-radius: 15px;
+  border-bottom: 5px solid #147ddf;
+}
+
+.btm_box>p{
+  position: relative;
+  top: -25px;
+  left: 10px;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.prog_box2{
+  position: relative;
+  left: 20%;
+  top: -335px;
+  width: 350px;
+  height: 50px;
+  background: #383838;
+  border-radius: 15px 15px 15px 5px;
+  border-bottom: 5px solid white;
+}
+
+.btm_box2{
+  position: relative;
+  top: 35px;
+  left: -1px;
+  width: 270px;
+  height: 15px;
+  border-radius: 15px;
+  border-bottom: 5px solid #147ddf;
+}
+
+.btm_box2>p{
+  position: relative;
+  top: -25px;
+  left: 10px;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.prog_box3{
+  position: relative;
+  left: 20%;
+  top: -325px;
+  width: 350px;
+  height: 50px;
+  background: #383838;
+  border-radius: 15px 15px 15px 5px;
+  border-bottom: 5px solid white;
+}
+
+.btm_box3{
+  position: relative;
+  top: 35px;
+  left: -1px;
+  width: 300px;
+  height: 15px;
+  border-radius: 15px;
+  border-bottom: 5px solid #147ddf;
+}
+
+.btm_box3>p{
+  position: relative;
+  top: -25px;
+  left: 10px;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.G_icon{
+  color: #147ddf;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+
+.upper_box{
+  
+  width: 100%;
+  height: 25px;
+}
+
+.U_heading{
+  display: flex;
+  background-color: #1a1a1a;
+  width: 15%;
+  height: inherit;
+}
+
+.U_logo{
+  position: relative;
+  left: 65px;
+  width: 15px;
+  height: 15px;
+  top: 5px;
+}
+
+.U_heading>p{
+  position: relative;
+  left: 75px;
+  color: #DCDCDC;
+}
+
+.U_icon{
+  position: relative;
+  left: 15px;
+  font-size: 18px;
+}
+
+.U_icon:hover{
+background-color: #DCDCDC;
+border-radius: 8px;
+color: black;
+cursor: pointer;
+}
+
+.UL_box{
+  position: relative;
+  left:1440px;
+  top: -25px;
+  background-color: #1a1a1a;
+  width: 15%;
+  height: inherit;
+  color: #DCDCDC;
+}
+
+.UL_icon{
+  position: relative;
+  left: 55px;
+  font-size: 18px;
+}
+
+.footer_box{
+  position: absolute;
+  bottom: 0;
+  background-color: purple;
+  width: 100%;
+  height:25px;
+}
+
+.F_box{
+  display: flex;
+  color: #DCDCDC;
+}
+
+.F_icon{
+  margin: 5px;
+  color: #DCDCDC;
+  font-size: 18px;
+}
+
+.FR_icon{
+  position: relative;
+  left: 1410px;
+  margin: 5px;
+  color: #DCDCDC;
+  font-size: 18px;
+}
